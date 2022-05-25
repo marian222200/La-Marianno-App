@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">La Marianno</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">La Marianno</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Pizza</string>
+    <string name="menu_camera">Camera</string>
+    <string name="home_title">Pizzeria La Marianno</string>
+    <string name="home_image_of_a_pizza">Home image of a pizza</string>
+    <string name="home_ad">Pizzeria lui Marian face pizza inca din 1990. Cea mai buna pizza din viata ta sau iti returnam banii inapoi. Incearca si tu astazi pizza care iti va oferi revelatii.</string>
+    <string name="home_help">Nu ezita sa consulti galeria noastra de pizza de unde poti share-ui ingredientele fiecarei pizza. Daca iti place cum arata pizza, nu ezita sa ii faci o poza!</string>
+    <string name="take_a_pizza_photo">Take a Pizza Photo</string>
+    <string name="pizza_place_holder">pizza</string>
+    <string name="search">Search</string>
+</resources>

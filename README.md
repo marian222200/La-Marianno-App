@@ -18,9 +18,15 @@ The  navigation menu of the app. Used to navigate from one fragment to another. 
 ### RecyclerView
 
 
-The RecyclerView it is used when you have a list of objects alike, reusing the same layout items to use less memory. The layout for the list can be found in fragment_gallery.xml and the layout for an item can be found in item_layout.xml. The RecyclerView is used inside the Gallery fragment and it is used to display a list of pizza. The RecyclerView adapter can be found in RecyclerAdapter.kt. To it is is given a list of items to be displayed and he does it inside the gallery_fragment.xml layout. More info about it can be found here: [RecyclerView](https://developer.android.com/codelabs/kotlin-android-training-recyclerview-fundamentals?index=..%2F..android-kotlin-fundamentals "Android Developers - RecylcerView").
+The RecyclerView it is used when you have a list of objects alike (a list of pizza names), reusing the same layout items to use less memory. The layout for the list can be found in fragment_gallery.xml and the layout for an item can be found in item_layout.xml. The RecyclerView is used inside the Gallery fragment and it is used to display a list of pizza. The RecyclerView adapter can be found in RecyclerAdapter.kt. To it is is given a list of items to be displayed and he does it inside the gallery_fragment.xml layout. More info about it can be found here: [RecyclerView](https://developer.android.com/codelabs/kotlin-android-training-recyclerview-fundamentals?index=..%2F..android-kotlin-fundamentals "Android Developers - RecylcerView").
 
 ![image](https://user-images.githubusercontent.com/30511514/172007664-73ff6396-349b-4a28-bf99-439b22ee3f1a.png)
+
+### Search Bar
+
+
+Inside the Gallery fragment there is an widget called searchView that it is used to implement the basic search function inside the pizza names list. Every time something is written inside the search bar the recyclerView is updated and the list of pizza that is shown gets updated. For more info about searchView widget visit the reference page here: [SearchView Widget](https://developer.android.com/reference/kotlin/android/widget/SearchView "Android Developers Reference - SearchView").
+
 
 ![image](https://user-images.githubusercontent.com/30511514/172007726-83222b18-7bde-4d3d-8ab3-9b3a5ec95bb8.png)
 

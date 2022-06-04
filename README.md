@@ -22,4 +22,5 @@ A prototype app for an imaginary pizza place
 <details>
   <summary>Navigation Drawer</summary>
   <br>
-  The app has 3 parts:
+  ![image](https://user-images.githubusercontent.com/30511514/172007913-e14cdb39-abc7-4ab4-aa54-d17394783ada.png)
+</details>

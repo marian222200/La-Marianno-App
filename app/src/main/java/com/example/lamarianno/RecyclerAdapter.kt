@@ -42,7 +42,7 @@ class RecyclerAdapter(private val pizzaList: MutableList<String>) : RecyclerView
 
             itemView.setOnClickListener {
                                                                                                                                 //aici setam cand se apasa pe itemul curent sa se dea share
-                val position: Int = adapterPosition                                                                             //pozitia item-ului curent
+                val position: Int = bindingAdapterPosition                                                                             //pozitia item-ului curent
                 val shareIntent = Intent()                                                                                      //instantiem intent
                 shareIntent.action = Intent.ACTION_SEND                                                                         //setam actiunea intentului de tipul send
                 shareIntent.type="text/plain"                                                                                   //tipul intentului de este text simplu

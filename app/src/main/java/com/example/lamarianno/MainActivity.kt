@@ -23,14 +23,14 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMain2Binding.inflate(layoutInflater)          //inflam view-ul
         setContentView(binding.root)
 
-        setSupportActionBar(binding.appBarMain2.toolbar)
+        setSupportActionBar(binding.appBarMain2.toolbar)                                    //butonul de deschidere drawer
 
-        val drawerLayout: DrawerLayout = binding.drawerLayout
-        val navView: NavigationView = binding.navView
-        val navController = findNavController(R.id.nav_host_fragment_content_main2)
+        val drawerLayout: DrawerLayout = binding.drawerLayout                               //referinta catre widget-ul din activity_main2
+        val navView: NavigationView = binding.navView                                       //referinta catre ce apare cand apasam pe butonul de deschidere menu
+        val navController = findNavController(R.id.nav_host_fragment_content_main2)         //referinta catre unde apar fragmentele in layout-ul content_main2.xml
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        appBarConfiguration = AppBarConfiguration(
+        appBarConfiguration = AppBarConfiguration(                                          //referinta catre fragmentele din mobile_navigation
             setOf(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_camera
             ), drawerLayout

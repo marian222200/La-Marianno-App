@@ -6,6 +6,12 @@ A prototype app for an imaginary pizza place
 
 
 ## App contents
+All the functionalities that i have coded in this app. Everything codded here was learned from [Android Developers website](https://developer.android.com/courses/kotlin-android-fundamentals/overview "Android Kotlin Fundamentals")
+
+
+### Navigation Drawer
+
+The navigation dr
 
 ![image](https://user-images.githubusercontent.com/30511514/172007585-59d43852-3966-4629-ada1-af8bce8d8559.png)
 

@@ -27,9 +27,18 @@ The RecyclerView it is used when you have a list of objects alike (a list of piz
 
 Inside the Gallery fragment there is an widget called searchView that it is used to implement the basic search function inside the pizza names list. Every time something is written inside the search bar the recyclerView is updated and the list of pizza that is shown gets updated. For more info about searchView widget visit the reference page here: [SearchView Widget](https://developer.android.com/reference/kotlin/android/widget/SearchView "Android Developers Reference - SearchView").
 
-
 ![image](https://user-images.githubusercontent.com/30511514/172007726-83222b18-7bde-4d3d-8ab3-9b3a5ec95bb8.png)
 
+### Share
+
+
+Inside the RecyclerAdapter, whenever an item is inflated into the layout, an on click event listener is added to that item. Whenever you click an item the share option is shown inside the app. Inside the code we sent an intent with the action SEND and the type text/plain. After that we call startActivity of that intent. Fore more info check this page here: [Sharing simple data](https://developer.android.com/training/sharing "Android Developers training - Sharing simple data").
+
 ![image](https://user-images.githubusercontent.com/30511514/172007765-b31ce463-c332-4b9d-b189-d9f51604ec05.png)
+
+### Camera activity
+
+
+The last function implemented inside this app is the ability to take a picture inside the Camera fragment. The first thing I had to do was to add the permission to use the camera inside the AndroidManifest.xml file. After that, the camera fragment has a button that when you click on it an intent is created with the action IMAGE_CAPTURE, and, after we check if the device has an avabile camera (some phones may not have), we start an activity with that intent and with a request code that is random, but must be kept for later inside a variable. After that we wait for the activity to return a result (the request code of that activity has to be the same random number as before), and the camera activity successfully returned a picture we get the image as bitmap and we show it above the button in camera fragment layout.
 
 ![image](https://user-images.githubusercontent.com/30511514/172007781-a36a9772-f02d-4582-99dc-39628631749b.png)
